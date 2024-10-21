@@ -77,7 +77,7 @@
 
 ### 3.4 Network Traffic Analysis
 - Wireshark for advanced packet analysis
-- Bro/Zeek for network security monitoring
+- Zeek for network security monitoring
 
 ### 3.5 Wireless Network Security
 - WPA3 implementation and security features

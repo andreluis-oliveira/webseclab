@@ -1,4 +1,4 @@
-# Milestone 3: Linux Advanced Topics
+# Linux Advanced Topics
 
 ## 1. Shell Scripting
 

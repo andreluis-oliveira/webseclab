@@ -1,4 +1,4 @@
-# Milestone 2: Linux Security Fundamentals
+# Linux Security Fundamentals
 
 ## Introduction
 
