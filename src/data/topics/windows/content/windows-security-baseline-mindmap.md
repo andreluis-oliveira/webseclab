@@ -1,0 +1,53 @@
+- **Windows Security Baselines**
+  - **Theoretical Explanation**
+    - Definition: Predefined security settings
+    - Purpose: Consistent security across systems
+    - Benefits:
+      - Consistency
+      - Compliance (GDPR, HIPAA, PCI-DSS)
+      - Reduced attack surface
+      - Ease of deployment
+  - **Key Concepts**
+    - **Group Policy Objects (GPOs)**
+      - Used for domain-wide security enforcement
+      - Centralized management
+    - **Local Security Policy**
+      - For standalone systems
+      - Accessed via `secpol.msc`
+    - **Security Compliance Toolkit (SCT)**
+      - Pre-configured baselines
+      - Importable into GPOs
+    - **Common Security Settings**
+      - Password Policies
+        - Minimum password length
+        - Complexity requirements
+        - Password expiration
+      - Account Lockout Policies
+        - Lockout threshold
+        - Reset counter
+      - Audit Policies
+        - File system auditing
+        - Logon attempts
+      - Windows Defender & Antivirus
+      - Firewall Configuration
+  - **Practical Example**
+    - Hands-On Lab Exercise
+      - Apply baseline using Local Security Policy
+      - Configure:
+        - Password policies
+        - Account lockout policies
+        - Auditing
+      - Verify changes with `gpupdate /force`
+  - **Discussion Questions**
+    - Importance of password complexity
+    - Risks of low account lockout thresholds
+    - Role of auditing in incident response
+    - Applying baselines in large environments
+  - **Quiz/Challenge**
+    - Quiz questions on baselines
+    - Practical challenge: Disable Guest account
+  - **Additional Resources**
+    - Microsoft Security Compliance Toolkit
+    - Group Policy Overview
+    - NIST Cybersecurity Framework
+    - OWASP Windows Hardening Guide
